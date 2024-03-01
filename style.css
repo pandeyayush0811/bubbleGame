@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+
+}
+
+#cont{
+    width: 100%;
+    height: 100%;
+    background-color: grey;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+#cont:hover{
+    cursor: progress;
+}
+
+#cont #mwin{
+    width: 80%;
+    height: 80%;
+    background-color: limegreen;
+    /* border: 23px solid; */
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+#mwin #head{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(146, 201, 64);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 40px;
+    /* means flex me height and width dene ke baad padding: dene se box bahar nhi nharta hain; */
+
+}
+
+#head #box{
+    width: 100%;
+    height: 40px;
+    /* background-color: #fff; */
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+
+
+#box .sbox{
+    width: 100%;
+    height: 100%;
+    /* background-color: black; */
+    display: flex;
+    
+    /* justify-content: end; */
+
+    align-items: center;
+    gap: 10px;
+    
+}
+
+.sbox .empty{
+    width: 40%;
+    height: 80%;
+    background-color: rgb(242, 242, 247);
+    border-radius: 10px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 600;
+
+
+}
+
+.sbox h2{
+    font-size: 21px;
+}
+
+#mwin #midd{
+    background-color: rgb(238, 152, 152);
+    width: 100%;
+    height: calc(100% - 60px);
+
+    padding: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+
+}
+
+#mwin #midd:hover{
+    cursor: pointer;
+}
+
+#midd .numbox{
+    width: 45px;
+    height: 45px;
+    background-color: yellow;
+
+    font-weight: 600;
+    /* border-radius: 50%; */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
